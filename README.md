@@ -22,13 +22,12 @@ This assignment has 3 parts:
 Instructions
 ========
 
-1. Fork this repository using the button at the top of the project page.
-2. Make sure that the visibility of your project is private. (Settings > expand Permissions > Project visibility: Private; Save changes).
-3. Add your teachers, Andrea (*azanibellato*) and Min-Hsien (*samminweng*) as collaborators to your project so we can check your commits when marking. To do this, go to Settings, then Manage Access (you may be asked to insert your password again), then click on "Invite a collaborator". Insert the teacher's username - azanibellato, then click on the green button to add. Repeat with the other teacher - samminweng. **Note: If you don't give us access to your repository you will lose the points on repository usage(see Grading).**
-4. Clone the new repository to your computer using Git.  Develop and test the program on your computer
+1. Fork this repository using the button at the top of the project page. KEEP THE VISIBILITY OF YOUR PROJECT PRIVATE. (Settings > expand Permissions > Project visibility: Private). Only your teachers should see your code, YOU CANNOT SHARE IT WITH YOUR CLASSMATES.
+2. Clone the new repository to your computer using IntelliJ IDEA ( File > New > Project from Version Control ; insert the URL you get from YOUR repository by clicking "clone or download").  
+3. Develop and test the program on your computer
 as described below.
-5. Remember to commit and push regularly as you work on the project!  Good Git usage, with regular commits having useful messages, will be required in the grading.
-6. There are questions asked for each task and locations for answering each question in this document (after the task descriptions).  You should answer them in your copy of this document, which will be the README for your version of the project.
+4. Remember to commit and push regularly as you work on the project!  Good Git usage, with regular commits having useful messages, will be required in the grading. You can use IntelliJ to commit and push your files (VCS > Git > ...). For more information see [https://www.jetbrains.com/help/idea/commit-and-push-changes.html](https://www.jetbrains.com/help/idea/commit-and-push-changes.html)
+5. There are questions asked for each task and locations for answering each question in this document (after the task descriptions).  You should answer them in your copy of this document, which will be the README for your version of the project.
 
 
 Task 1
@@ -53,7 +52,7 @@ Describe three experiments you conducted on A2.java and in each case explain wha
 *Put your answer here*
 
 Question 3
-For each of the classes HBox, Text and TextField briefly describe (a) the purpose of the class.
+For each of the classes HBox, Text and TextField briefly describe the purpose of the class (what graphical element is it? what do you use it for?).
 
 *Put your answer here*
 
@@ -73,7 +72,8 @@ Task 2 Questions
 ----------------
 
 ```
-There are no questions for this section.
+Question 1.
+*Insert a screenshot of your form with 3 items filled in (item, number and value for each).
 ```
 
 Task 3
@@ -103,6 +103,10 @@ Is the use of key release satisfactory?  Are there situations in which edits are
 
 *Put your answer here*
 
+Question 3.
+*Insert a screenshot of your form with 3 items and the final total calculated.
+
+
 ```
 
 Submission
@@ -119,5 +123,5 @@ Grading
 |:----------:|------|
 | 20% | Correct repository usage and settings |
 | 20% | Task 1 questions and modifications |
-| 30% | Task 2 code |
+| 30% | Task 2 code and screenshot |
 | 30% | Task 3 code and questions |
