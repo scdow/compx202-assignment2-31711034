@@ -3,7 +3,7 @@ Assignment 2 - Experimenting with a big Java Package: JavaFX
 ========================================
 
 #### Due on **Friday 20th March at 8pm**
-
+ 
 The goal of this exercise is to experiment with the JavaFX system for building user interfaces.
 JavaFX is the recommended library for making user interfaces in desktop applications with
 the current version of the Java language and development system.
@@ -113,7 +113,7 @@ Submission
 ==========
 
 Your finished project should be in your GitHub repository (don't forget to commit and push).  
-You must also put your repository in a ZIP folder and submit that through Blackboard.
+You must also export your project to a ZIP folder and submit that through Blackboard.
 
 
 Grading
