@@ -44,7 +44,7 @@ Task 1 Questions
 Question 1
 What does A2.java do when you enter text?
 
-*Put your answer here*
+*Put your answer here* //The assignment seems a littele hard
 
 Question 2
 Describe three experiments you conducted on A2.java and in each case explain what you learned from the results.
