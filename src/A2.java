@@ -1,4 +1,6 @@
 import javafx.application.Application;
+import javafx.geometry.HPos;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.layout.HBox;
@@ -11,7 +13,7 @@ import javafx.scene.text.Font;
 public class A2 extends Application {
 
 	Text label1 = new Text("Censored");
-	Text label2 = new Text("     ");
+	Text label2 = new Text(" ");
 	Text label3 = new Text("Replacement");
 	Text label4 = new Text(" ");
 	Text label5 = new Text("Raw Input");
@@ -31,11 +33,11 @@ public class A2 extends Application {
 		censoredText = rawText.replace(censored, replacement);
 		label7.setText(censoredText);
 	}
-	
+
 	@Override
     public void start(Stage primaryStage) {
 
-        label7.setFont(new Font(24));
+       	label7.setFont(new Font(24));
 
         text1.setOnKeyReleased(e -> applyCensorRules());
         text2.setOnKeyReleased(e -> applyCensorRules());
@@ -43,6 +45,7 @@ public class A2 extends Application {
 
         VBox root = new VBox();
         root.setAlignment(Pos.BASELINE_LEFT);
+        //root.setPadding(new Insets(10));
 
 		HBox hbox1 = new HBox();
 

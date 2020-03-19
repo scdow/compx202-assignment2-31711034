@@ -44,17 +44,30 @@ Task 1 Questions
 Question 1
 What does A2.java do when you enter text?
 
-*Put your answer here* //The assignment seems a littele hard
+*
+The program can check the string in "raw input".
+When find the characters same with the characters in "Censored", change them to the chars in "Replacement".
+The change result is displayed in scene.
+*
 
 Question 2
 Describe three experiments you conducted on A2.java and in each case explain what you learned from the results.
 
-*Put your answer here*
+*
+Ever test delete these statement to experiment, and resume later:
+label7.setFont(new Font(24)); can change font size, when deleted, the "Censored Version" be smaller.
+root.getChildren().add(hbox1); can add horizontal HBox "hbox1" in verital VBox "root".
+root.getChildren().add(text3); Find what is TextField "text3".
+*
 
 Question 3
 For each of the classes HBox, Text and TextField briefly describe the purpose of the class (what graphical element is it? what do you use it for?).
 
-*Put your answer here*
+*
+HBox: A row "box" in scene, lays out its children in a single horizontal row. For example: in "hbox1", there are "vbox11", "label2", "vbox12" locating from left to right.
+Text: An area that can display strings. Eg: in A2.java, "label3" is belong to class Text, it make the "Replacement" appear in scene.
+TextField: An area that can type the strings. Eg: TextField "text3" makes an area that can input the raw strings in.
+*
 
 ```
 
@@ -75,6 +88,7 @@ Task 2 Questions
 Question 1.
 *Insert a screenshot of your form with 3 items filled in (item, number and value for each).
 ```
+![Screen shot of Assignment2 task2](task_2.png)
 
 Task 3
 ======
@@ -96,18 +110,24 @@ Task 3 Questions
 Question 1.
 What would happen if you used the key press event rather than the key release event.
 
-*Put your answer here*
+*In the situation of If entering valid numbers:
+Key press event: when use keyboard type number in textField, once press, immediately begin calculating. The event lauch before release the keyboard.
+Key release event: When press the first digit by keyboard, the program won't calculate price right now. The event will start after the key released.*
 
 Question 2.
 Is the use of key release satisfactory?  Are there situations in which edits are not detected? (hint: try using the mouse)
 
-*Put your answer here*
+*For laptop:
+I think for laptop it's convenient to use key release event to calculate items' price, becouse people always input numbers by keyboard in laptop, and I just need to type numbers, then the result will appear automatically.
+For mobile phone:
+But, if users has no entity keyboard (like mobile phone), only key release event will hard to be used. 
+For edit data:
+In this program window, the calculating results of item prices and total price, they all can't be copy, so reusing these data in other places is not easy.*
 
 Question 3.
 *Insert a screenshot of your form with 3 items and the final total calculated.
-
-
 ```
+![Screen shot of Assignment2 task3](task_3.png)
 
 Submission
 ==========
