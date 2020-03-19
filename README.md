@@ -110,9 +110,11 @@ Task 3 Questions
 Question 1.
 What would happen if you used the key press event rather than the key release event.
 
-*In the situation of If entering valid numbers:
+*
+In the situation of If entering valid numbers:
 Key press event: when use keyboard type number in textField, once press, immediately begin calculating. The event lauch before release the keyboard.
-Key release event: When press the first digit by keyboard, the program won't calculate price right now. The event will start after the key released.*
+Key release event: When press the first digit by keyboard, the program won't calculate price right now. The event will start after the key released.
+*
 
 Question 2.
 Is the use of key release satisfactory?  Are there situations in which edits are not detected? (hint: try using the mouse)
@@ -122,10 +124,11 @@ I think for laptop it's convenient to use key release event to calculate items' 
 For mobile phone:
 But, if users has no entity keyboard (like mobile phone), only key release event will hard to be used. 
 For edit data:
-In this program window, the calculating results of item prices and total price, they all can't be copy, so reusing these data in other places is not easy.*
+In this program window, the calculating results of item prices and total price, they all can't be copy, so reusing these data in other places is not easy.
+*
 
 Question 3.
-*Insert a screenshot of your form with 3 items and the final total calculated.
+*Insert a screenshot of your form with 3 items and the final total calculated.*
 ```
 ![Screen shot of Assignment2 task3](task_3.png)
 
